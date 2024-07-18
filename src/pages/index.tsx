@@ -5,27 +5,12 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 import {NavBar} from '../components/navbar'
+import {Footer} from '../components/footer'
 
-import tablescreenshot from '../images/habitazen.png'
+import hero_image from '../images/hero_image.jpg'
+import projects_image from '../images/projects_image.jpg'
 
 
-const widgetsRowStyles = {
-  margin: "auto",
-  display: "flex",
-  justifyContent: "space-between",
-
-}
-
-const projectWidgetStyles = {
-  border: "2px solid black",
-  borderRadius: "8px",
-  width: "28%",
-  margin: "1%",
-  textAlign: "center",
-  display: "flex",
-  flexDirection: "column",
-
-}
 
 
 
@@ -34,19 +19,14 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
       <NavBar/>
       <main className="pb-20">
-        <img src={tablescreenshot} className="w-96 border-2 mt-8"></img>
-        <h1 className="text-2xl text-center mt-8">Strap Line Goes Here</h1>
-        <div className="flex flex-col mx-auto w-fit mt-8">
-          <a className='rounded-md py-2 px-3 text-white bg-slate-450 bg-slate-500 hover:bg-slate-400 hover:cursor-pointer'>Action Button</a>
-          <a href="https://habit-tracker-indol-ten.vercel.app/" className="mt-4 underline text-blue-400 mx-auto">Alternate Action</a>
-        </div>
-        <h1 className="text-center text-xl mt-8">Features:</h1>
-        <ul className="mx-auto w-fit mt-3">
-          <li>- Feature 1</li>
-          <li>- Feature 2</li>
-          <li>- Feature 3</li>
-        </ul>
+        <img src={hero_image} className="w-96 pt-36"></img>
+        <h1 className="mt-10">Building Things That Matter</h1>
+        <h3>Building and Investing in Software, Finance and eCommerce Projects.</h3>
+        <h2 id="projects" className="mt-16">Projects</h2>
+        <img src={projects_image} className="w-[400px] mt-8" alt="" />
+        <h2 id="contact" className="mt-16">Contact</h2>
       </main>
+      <Footer />
     </>
   )
 }
