@@ -8,6 +8,6 @@ export const Footer = ({}) =>
 
   <footer className="text-center py-8">
 
-    <p>Copyright Kazen Projects 2023</p>
+    <p>© Kazen Projects LTD 2023</p>
 
   </footer>
