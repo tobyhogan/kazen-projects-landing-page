@@ -1,1 +1,1 @@
-# kazen-site
+## Gatsby. Vite. Tailwind - Basic
