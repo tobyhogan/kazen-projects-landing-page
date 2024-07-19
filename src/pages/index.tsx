@@ -4,7 +4,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../styles/global.css'
 import '../styles/index.css'
 
-import {NavBar} from '../components/navbar'
+import {Header} from '../components/header'
 import {Footer} from '../components/footer'
 
 import hero_image from '../images/hero_image.jpg'
@@ -17,7 +17,7 @@ import projects_image from '../images/projects_image.jpg'
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <NavBar/>
+      <Header/>
       <main className="pb-20">
         <img src={hero_image} className="w-96 pt-36"></img>
         <h1 className="mt-10">Building Things That Matter</h1>

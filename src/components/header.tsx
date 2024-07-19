@@ -4,7 +4,7 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-export const NavBar = ({}) =>
+export const Header = ({}) =>
     <nav className="NavBar flex justify-between fixed w-full bg-slate-100 text-slate-600">
 
         <a href='/' className='text-[35px] ml-14 py-1.5'>Kazen Projects</a>
