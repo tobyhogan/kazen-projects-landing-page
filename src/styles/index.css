@@ -52,9 +52,7 @@
   
   .ToggleNav {
 
-    /* CODE BELOW KEEPS TOGGLE NAV DISPLAYED EVEN IN WIDER MODE */
-
-    display: auto;
+    display: none;
 
     padding-top: 9px;
 
@@ -89,6 +87,55 @@
 
 
 
+header {
+
+  background-color: rgb(47, 47, 106);
+
+}
+
+footer {
+  
+  background-color: rgb(77, 77, 144);
+
+}
+
+main {
+
+  background-color: rgb(91, 91, 172);
+
+}
+
+h1, h2, h3, p, li {
+
+  color: white;
+
+}
+
+
+
+header .Link1, header .Link2, header .Other {
+  color: white;
+}
+
+.Button1 {
+
+  color: white;
+  border: 1px solid white;
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  
+}
+
+.Button2 {
+color: white;
+}
+
+
+
+/*
+
 
 .light {
 
@@ -110,7 +157,7 @@
   }
 
 
-  h1, h2, h3, p, li, a {
+  h1, h2, h3, p, li {
 
     color: rgb(0, 0, 0);
 
@@ -149,7 +196,7 @@
 
   }
 
-  h1, h2, h3, p, li, a {
+  h1, h2, h3, p, li {
 
     color: white;
 
@@ -179,6 +226,21 @@
 
 }
 
+*/
+
+
+.Link3 {
+
+  color: #9eafe4;
+  text-decoration: underline;
+
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 
 h1 {
   text-align: center;
@@ -188,13 +250,15 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: large;
+  font-size: x-large;
+  margin: 20px 0;
 }
 
 
 h3 {
   text-align: center;
   font-size: medium;
+  margin: 8px 0 4px 0;
 }
 
 

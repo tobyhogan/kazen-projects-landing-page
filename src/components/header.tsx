@@ -23,10 +23,9 @@ function Header() {
   const navList = 
     <>
 
-      <Link to="/demos" className="Link2 hover:underline">Feature Demos</Link>    
-      <Link to="/hashdemo" className="Link2 hover:underline">URL Hashes</Link>    
-      <Link to="/page1" className="Link2 hover:underline">Page 1</Link>
-      <Link to="/page2" className="Link2 hover:underline">Page 2</Link>
+      <Link to="#home" className="Link2 hover:underline">Home</Link>
+      <Link to="#clientwork" className="Link2 hover:underline">Client Work</Link>
+      <Link to="#contact" className="Link2 hover:underline">Contact</Link>
 
     </>
 
@@ -142,7 +141,7 @@ function Header() {
     
 
     <header className="NavBar flex justify-between">
-      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Project Title</Link>
+      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Kazen Projects</Link>
 
 
       <div className="flex flex-row">
@@ -188,13 +187,14 @@ function Header() {
 
         </div>
 
-
+        {/*
         <div className="ThemeToggler">
 
           { isDark ? (<button onClick={handleToggleTheme}><MdOutlineDarkMode size={28} className="text-black dark:text-white"/></button>)
             : (<button onClick={handleToggleTheme}><MdLightMode size={28} className="text-black dark:text-white"/></button>) }
 
         </div>
+        */}
 
 
       </div>
