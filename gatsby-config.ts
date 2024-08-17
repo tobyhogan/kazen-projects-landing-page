@@ -16,14 +16,14 @@ module.exports = {
     // ...
   ],
 
-  pathPrefix: "/tsx-gatsby-tailwind-landing-template",
+  pathPrefix: "/kazen-projects-landing-page",
   
 
 }
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteUrl: `https://tobyhogan.github.io/tsx-gatsby-tailwind-landing-template`,
+    siteUrl: `https://tobyhogan.github.io/kazen-projects-landing-page`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
