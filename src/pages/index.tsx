@@ -9,7 +9,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 
 
-import tablescreenshot from '../assets/project-image.png'
+import projectimage from '../assets/project-image.png'
 import computerart from '../assets/computer-art.jpg'
 
 
@@ -28,7 +28,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <div className="flex flex-col">
       <Header />
       <main id="home" className="pt-20">
-        <img src={tablescreenshot} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
+        <img src={computerart} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
         <h1 className="text-center mt-8 text-2xl">Building Things That Matter</h1>
 
         <h2 id="clientwork">Client Work:</h2>
