@@ -1,1 +1,0 @@
-- change url in gatsby-config.ts . GatsbyConfig function, AND the pathPrefix variable if you want to have a site icon

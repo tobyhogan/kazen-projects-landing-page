@@ -1,1 +1,0 @@
-## Gatsby. Vite. Tailwind - Basic

@@ -1,0 +1,7 @@
+
+
+
+- add code that closes the mobile nav menu when you click away from it
+
+
+- change dark mode toggle button to nicer sun and moon one?

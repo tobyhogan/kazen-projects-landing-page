@@ -4,30 +4,45 @@ import type { HeadFC, PageProps } from "gatsby"
 import '../styles/global.css'
 import '../styles/index.css'
 
-import {Header} from '../components/header'
-import {Footer} from '../components/footer'
+import Header from '../components/header'
+import Footer from '../components/footer'
 
-import hero_image from '../images/hero_image.jpg'
-import projects_image from '../images/projects_image.jpg'
+// @ts-ignore
+import tablescreenshot from '../assets/project-image.png'
 
 
 
 
 
 const IndexPage: React.FC<PageProps> = () => {
+
+  if (typeof window !== 'undefined') {
+    console.log('we are running on the client')
+  } else {
+      console.log('we are running on the server');
+  }
+
   return (
-    <>
-      <Header/>
-      <main className="pb-20">
-        <img src={hero_image} className="w-96 pt-36"></img>
-        <h1 className="mt-10">Building Things That Matter</h1>
-        <h3>Building and Investing in Software, Finance and eCommerce Projects.</h3>
-        <h2 id="projects" className="mt-16">Projects</h2>
-        <img src={projects_image} className="w-[400px] mt-8" alt="" />
-        <h2 id="contact" className="mt-16">Contact</h2>
+    <div className="flex flex-col">
+      <Header />
+      <main className="">
+        <img src={tablescreenshot} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
+        <h1 className="text-center mt-8 text-2xl">Headline Goes Here</h1>
+        <div className="flex flex-col mx-auto w-fit mt-8">
+          <a className='Button2 rounded-md py-2 px-5 text-white dark:text-black bg-slate-500 dark:bg-emerald-600 hover:bg-slate-400 dark:hover:bg-[#3a8d72] hover:cursor-pointer'>Action Button</a>
+          <a href="https://habit-tracker-indol-ten.vercel.app/" className="mt-4 underline text-blue-400 mx-auto">Alternate Action</a>
+        </div>
+        <h1 className="text-center text-xl mt-8">Features:</h1>
+        <ul className="mx-auto w-fit mt-3 mb-[111px]">
+          <li>- Feature 1</li>
+          <li>- Feature 2</li>
+          <li>- Feature 3</li>
+        </ul>
+
       </main>
       <Footer />
-    </>
+
+    </div>
   )
 }
 

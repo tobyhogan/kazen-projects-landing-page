@@ -4,10 +4,17 @@ import '../styles/global.css'
 import '../styles/index.css'
 
 
-export const Footer = ({}) =>
+function Footer() {
 
-  <footer className="text-center py-8">
+  return (
+    <footer className="text-center py-8">
 
-    <p>© Kazen Projects LTD 2023</p>
+      <p>© Project Name 2024</p>
 
-  </footer>
+    </footer>
+
+  )
+
+}
+
+export default Footer
