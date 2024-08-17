@@ -89,21 +89,25 @@
 
 header {
 
-  background-color: rgb(47, 47, 106);
+  background-color: #5a76b4;;
 
 }
 
-footer {
-  
-  background-color: rgb(77, 77, 144);
-
-}
 
 main {
 
-  background-color: rgb(91, 91, 172);
+  background-image: linear-gradient(45deg, #1d2537 0%, #5c7aba 50%, #5c7aba 55%, #a0b2d9 100%)
 
 }
+
+
+footer {
+  
+  background-color: #405685;
+
+}
+
+
 
 h1, h2, h3, p, li {
 

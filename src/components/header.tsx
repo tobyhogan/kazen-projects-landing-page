@@ -140,7 +140,7 @@ function Header() {
   return (
     
 
-    <header className="NavBar flex justify-between">
+    <header className="NavBar flex justify-between fixed w-full ">
       <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Kazen Projects</Link>
 
 

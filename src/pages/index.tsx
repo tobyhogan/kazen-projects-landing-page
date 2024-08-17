@@ -27,7 +27,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <main id="home" className="">
+      <main id="home" className="pt-20">
         <img src={computerart} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
         <h1 className="text-center mt-8 text-2xl">Building Things That Matter</h1>
 
@@ -41,6 +41,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <a href="https://www.theexcelexperts.com" className="Link3">The Excel Experts</a>
         </ul>
         <h2 id="contact">Contact</h2>
+        <div className="mb-32"></div>
 
       </main>
       <Footer />
