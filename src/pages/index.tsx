@@ -33,7 +33,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
         <h2 id="clientwork">Areas:</h2>
         <ul>
-          <h3>Kazen Software - Enterprise Projects</h3>
+          <h3>Kazen Software - Enterprise Projects, see more <a href="https://tobyhogan.space" className="Link3" target="_blank">here</a></h3>
           <h3><a href="https://tobyhogan.github.io/consulting-landing-page" className="Link3" target="_blank">Kazen Consulting</a> - Business & Small Business</h3>
         </ul>
         <h2 id="clientwork">Client Work:</h2>
