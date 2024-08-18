@@ -31,15 +31,26 @@ const IndexPage: React.FC<PageProps> = () => {
         <img src={computerart} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
         <h1 className="text-center mt-8 text-2xl">Building Things That Matter</h1>
 
+        <h2 id="clientwork">Areas:</h2>
+        <ul>
+          <h3>Kazen Software - Enterprise Projects</h3>
+          <h3>Kazen Consulting - Business & Small Business</h3>
+        </ul>
         <h2 id="clientwork">Client Work:</h2>
         <h3>Full:</h3>
         <ul>
-          <a href="https://forwardstep.org" className="Link3">Forward Step</a>
+          <a href="https://forwardstep.org" className="Link3" target="_blank">Forward Step</a>
         </ul>
         <h3>Partial and Consultation:</h3>
         <ul>
-          <a href="https://www.theexcelexperts.com" className="Link3">The Excel Experts</a>
+          <a href="https://www.theexcelexperts.com" className="Link3" target="_blank">The Excel Experts</a>
         </ul>
+        <h2 id="clientwork">Enterprise Projects:</h2>
+        <h3>Active:</h3>
+        <ul>
+          <a href="https://tobyhogan.github.io/" className="Link3" target="_blank">Habitazen Habit Tracker</a>
+        </ul>
+        <h3>In Development:</h3>
         <h2 id="contact">Contact</h2>
         <div className="mb-32"></div>
 
