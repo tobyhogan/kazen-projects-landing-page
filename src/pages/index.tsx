@@ -40,7 +40,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <h2 id="clientwork" className="mt-8">Client Work:</h2>
         <h3>Full & Exclusive:</h3>
         <ul>
-          <a href="https://forwardstep.org" className="Link3" target="_blank">Forward Step</a>
+          <a href="https://forwardstep.org" className="Link3" target="_blank">Forward Step Tutoring</a>
         </ul>
         <h3 className="mt-4">Partial and Consultation:</h3>
         <ul className="flex flex-col text-center">
