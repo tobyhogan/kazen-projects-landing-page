@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className="text-center py-8">
 
-      <p>© Project Name 2024</p>
+      <p>© Kazen Projects 2024</p>
 
     </footer>
 
