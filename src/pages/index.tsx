@@ -29,22 +29,23 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <main id="home" className="pt-20">
         <img src={computerart} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
-        <h1 className="text-center mt-8 text-2xl">Building Things That Matter</h1>
+        <h1 className="text-center mt-8 text-[26px]">Building Things That Matter</h1>
 
         <h2 id="clientwork">Areas:</h2>
         <ul>
-          <h3><a href="https://tobyhogan.github.io/software-landing-page/" className="Link3" target="_blank">Kazen Software</a> - Consumer Software Products</h3>
-          <h3><a href="https://tobyhogan.github.io/consulting-landing-page" className="Link3" target="_blank">Kazen Consulting</a> - Solutions for Business and Individuals</h3>
-          <h3><a href="https://tobyhogan.github.io/open-kz-landing-page" className="Link3" target="_blank">Kazen: Open KZ</a> - Open Source Systems and Technology</h3>
+          <h3><a href="https://tobyhogan.github.io/software-landing-page/" className="Link3" target="_blank">Kazen Software</a> - Consumer App & Software Products</h3>
+          <h3><a href="https://tobyhogan.github.io/consulting-landing-page" className="Link3" target="_blank">Kazen Consulting</a> - Solutions for Businesses & Individuals</h3>
+          <h3><a href="https://tobyhogan.github.io/open-kz-landing-page" className="Link3" target="_blank">Kazen: Open KZ</a> - Open Source Systems & Technology</h3>
         </ul>
         <h2 id="clientwork">Client Work:</h2>
-        <h3>Full:</h3>
+        <h3>Full & Exclusive:</h3>
         <ul>
           <a href="https://forwardstep.org" className="Link3" target="_blank">Forward Step</a>
         </ul>
         <h3>Partial and Consultation:</h3>
-        <ul>
+        <ul className="flex flex-col">
           <a href="https://www.theexcelexperts.com" className="Link3" target="_blank">The Excel Experts</a>
+          <a href="https://archetypebooks.net" className="Link3" target="_blank">Archetype Books</a>
         </ul>
         <h2 id="clientwork">Enterprise Projects:</h2>
         <h3>Active:</h3>
