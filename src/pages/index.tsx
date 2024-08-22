@@ -33,9 +33,9 @@ const IndexPage: React.FC<PageProps> = () => {
 
         <h2 id="clientwork">Areas:</h2>
         <ul>
-          <h3>Kazen Software - Enterprise Projects, see more <a href="https://tobyhogan.space" className="Link3" target="_blank">here</a></h3>
+          <h3><a href="https://tobyhogan.github.io/software-landing-page/" className="Link3" target="_blank">Kazen Software</a> - Consumer Software Products</h3>
           <h3><a href="https://tobyhogan.github.io/consulting-landing-page" className="Link3" target="_blank">Kazen Consulting</a> - Solutions for Business and Individuals</h3>
-          <h3><a href="https://tobyhogan.github.io/consulting-landing-page" className="Link3" target="_blank">Kazen Open</a> - Open Source Systems and Technology</h3>
+          <h3><a href="https://tobyhogan.github.io/open-kz-landing-page" className="Link3" target="_blank">Kazen: Open KZ</a> - Open Source Systems and Technology</h3>
         </ul>
         <h2 id="clientwork">Client Work:</h2>
         <h3>Full:</h3>
