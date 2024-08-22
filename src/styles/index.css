@@ -109,7 +109,7 @@ footer {
 
 
 
-h1, h2, h3, p, li {
+h1, h2, h3, h4, p, li {
 
   color: white;
 
@@ -260,6 +260,12 @@ h2 {
 
 
 h3 {
+  text-align: center;
+  font-size: 17px;
+  margin: 8px 0 4px 0;
+}
+
+h4 {
   text-align: center;
   font-size: medium;
   margin: 8px 0 4px 0;
