@@ -23,9 +23,10 @@ function Header() {
   const navList = 
     <>
 
-      <Link to="#home" className="Link2 hover:underline">Home</Link>
-      <Link to="#clientwork" className="Link2 hover:underline">Client Work</Link>
-      <Link to="#contact" className="Link2 hover:underline">Contact</Link>
+      <Link to="/#home" className="Link2 hover:underline">Home</Link>
+      <Link to="/goals" className="Link2 hover:underline">Goals</Link>
+      <Link to="/#clientwork" className="Link2 hover:underline">Client Work</Link>
+      <Link to="/#contact" className="Link2 hover:underline">Contact</Link>
 
     </>
 
@@ -141,7 +142,7 @@ function Header() {
     
 
     <header className="NavBar flex justify-between fixed w-full ">
-      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Kazen Projects</Link>
+      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Projects Org</Link>
 
 
       <div className="flex flex-row">
