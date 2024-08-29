@@ -28,10 +28,14 @@ const IndexPage: React.FC<PageProps> = () => {
       <main id="home" className="pt-20 pb-16">
         <h1 className="text-center mt-8 text-[26px]">Our Goals</h1>
 
-        <h2 className="mt-8">Stuctural Issues:</h2>
+        <h2 className="mt-8">Stuctural Issues Observed:</h2>
         <ul>
           <h3>Planned Obselesence</h3>
-          <h3>Intentional Labour Creation</h3>
+            <h4>Where products are engineered so that they avoidably fail after a period of time.</h4>
+          <h3 className="mt-4">Intentional Labour Creation</h3>
+            <h4>Jobs and work are created where they do not need to be. <br />Think software re-organising it's menus and layout,
+              making it harder to use, but developers can keep working
+            </h4>
         </ul>
         <h2 className="mt-8">Areas:</h2>
         <ul>
@@ -49,4 +53,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Projects Org</title>
+export const Head: HeadFC = () => <title>Kazen Projects - Goals</title>
