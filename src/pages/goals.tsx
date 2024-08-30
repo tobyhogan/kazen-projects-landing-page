@@ -26,12 +26,13 @@ const IndexPage: React.FC<PageProps> = () => {
     <div className="flex flex-col">
       <Header />
       <main id="home" className="pt-20 pb-16">
-        <h1 className="text-center mt-8 text-[26px]">Our Goals</h1>
-
-        <h2 className="mt-8">Stuctural Issues Observed:</h2>
+        <h1 className="text-center mt-8 text-[26px]">Goals</h1>
+        <h2 className="mt-4">Stuctural Issues Observed:</h2>
         <ul>
+          <h3>Deferred Consequence Economics - <a href="/blog/deferred-consequence-economics" className="underline" target="_blank">Read More</a></h3>
+            <h4>Where solutions are created to deal with the <i>effects</i> of actions, rather than solutions that deal with problematic actions directly.</h4>
           <h3>Planned Obselesence</h3>
-            <h4>Where products are engineered so that they avoidably fail after a period of time.</h4>
+            <h4>Products are engineered so they avoidably fail after a period of time.</h4>
           <h3 className="mt-4">Intentional Labour Creation</h3>
             <h4>Jobs and work are created where they do not need to be. <br />Think software re-organising it's menus and layout,
               making it harder to use, but developers can keep working

@@ -160,8 +160,6 @@ function Header() {
 
         */ }
 
-
-
         <div className="FullNav">
 
           <ul className="flex mt-7 mr-3">
