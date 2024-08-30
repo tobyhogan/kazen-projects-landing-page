@@ -171,12 +171,12 @@ function Header() {
         <div className="ToggleNav">
 
           <button ref={buttonRef} onClick={() => {setNavOpen(navOpen => !navOpen)}}>
-            <MdMenu className="ml-4 mr-8 mt-4 text-black dark:text-white" size={30} />
+            <MdMenu className="ml-4 mr-8 mt-4 text-white" size={30} />
           </button>
 
           {navOpen ?
 
-            <div ref={menuRef} className="border-1 border-slate-300 border-2 pt-4 ml-[-53px] pb-7 pl-2 pr-8  absolute rounded-md bg-white dark:bg-slate-700">
+            <div ref={menuRef} className="MobileMenu pt-4 ml-[-90px] pb-7 pl-2 pr-8 absolute rounded-md">
               <ul className="flex flex-col text-start ml-3">
                 {navList}
               </ul>

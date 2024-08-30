@@ -29,6 +29,10 @@
 
   }
 
+  main {
+    padding: 0px 20px 0px 20px;
+  }
+
 
   .ThemeToggler {
     margin-top: 16px;
@@ -89,8 +93,13 @@
 
 header {
 
-  background-color: #5a76b4;;
+  background-color: #5a76b4;
 
+}
+
+.MobileMenu {
+  border: 2px solid rgb(232, 232, 232);
+  background: #5a76b4;
 }
 
 
