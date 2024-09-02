@@ -5,6 +5,20 @@ module.exports = {
     DEV_SSR: true
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+
+        
+        trackingIds: [ "G-F6FXKFVQD7", ],
+
+        pluginConfig: {
+
+          head: true,
+
+        },
+    
+    },},
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-manifest',
