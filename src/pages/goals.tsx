@@ -29,7 +29,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className="text-center mt-8 text-[26px]">Goals</h1>
         <h2 className="mt-4">Stuctural Issues Observed:</h2>
         <ul>
-          <h3>Deferred Consequence Economics - <a href="/blog/deferred-consequence-economics" className="underline" target="_blank">Read More</a></h3>
+          <h3>Deferred Consequence Economics - <a href="/projects-org-landing-page/blog/deferred-consequence-economics" className="underline" target="_blank">Read More</a></h3>
             <h4>Where solutions are created to deal with the <i>effects</i> of actions, rather than solutions that deal with problematic actions directly.</h4>
           <h3>Planned Obselesence</h3>
             <h4>Products are engineered so they avoidably fail after a period of time.</h4>
